@@ -1,0 +1,19 @@
+scenario,pair,non_dominated_pct,flagged_pct,topsis_inverted_pct
+Nominal,Pump Failure--Turbine Failure,100.0,0.1,0.56
+Nominal,Pump Failure--Sensor Anomaly,2.94,0.24,0.68
+Nominal,Pump Failure--Valve Stuck,5.08,0.3,0.6
+Nominal,Turbine Failure--Sensor Anomaly,2.98,0.42,1.0
+Nominal,Turbine Failure--Valve Stuck,5.24,0.4,0.78
+Nominal,Sensor Anomaly--Valve Stuck,43.46,1.28,1.98
+Vibration,Pump Failure--Turbine Failure,100.0,0.08,0.52
+Vibration,Pump Failure--Sensor Anomaly,2.1,0.34,0.56
+Vibration,Pump Failure--Valve Stuck,3.98,0.48,0.76
+Vibration,Turbine Failure--Sensor Anomaly,1.48,0.16,0.46
+Vibration,Turbine Failure--Valve Stuck,2.4,0.16,0.48
+Vibration,Sensor Anomaly--Valve Stuck,42.86,0.78,1.56
+High T+M,Pump Failure--Turbine Failure,100.0,0.02,0.46
+High T+M,Pump Failure--Sensor Anomaly,1.34,0.26,0.54
+High T+M,Pump Failure--Valve Stuck,2.68,0.2,0.34
+High T+M,Turbine Failure--Sensor Anomaly,1.66,0.16,0.52
+High T+M,Turbine Failure--Valve Stuck,2.78,0.32,0.46
+High T+M,Sensor Anomaly--Valve Stuck,57.6,0.8,1.54

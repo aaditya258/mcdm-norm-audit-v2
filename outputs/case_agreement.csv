@@ -1,0 +1,16 @@
+scenario,method,cell,mean_tau_b,different_complete_ranking_pct,same_top_pct
+Nominal,wsm_v,normalisation only,0.9908666666666668,2.6800000000000046,99.46000000000001
+Nominal,topsis_mm,aggregation only,0.9889333333333334,3.2399999999999984,99.08
+Nominal,topsis,both (TOPSIS),0.9813333333333334,5.279999999999996,98.82
+Nominal,vikor,VIKOR,0.9854666666666668,4.279999999999995,99.26
+Nominal,sensor_valve_share,share of divergent draws that are exactly the Sensor--Valve inversion,nan,34.84848484848485,49.06542056074766
+Vibration,wsm_v,normalisation only,0.9933333333333334,1.9399999999999973,99.64
+Vibration,topsis_mm,aggregation only,0.9917333333333334,2.3800000000000043,99.28
+Vibration,topsis,both (TOPSIS),0.9855333333333334,4.020000000000001,99.11999999999999
+Vibration,vikor,VIKOR,0.9886,3.3399999999999985,99.48
+Vibration,sensor_valve_share,share of divergent draws that are exactly the Sensor--Valve inversion,nan,33.333333333333336,46.10778443113772
+High T+M,wsm_v,normalisation only,0.9941333333333334,1.759999999999995,99.86
+High T+M,topsis_mm,aggregation only,0.9928,2.1599999999999953,99.48
+High T+M,topsis,both (TOPSIS),0.9871333333333332,3.6800000000000055,99.33999999999999
+High T+M,vikor,VIKOR,0.9892,3.200000000000003,99.56
+High T+M,sensor_valve_share,share of divergent draws that are exactly the Sensor--Valve inversion,nan,38.04347826086956,50.0

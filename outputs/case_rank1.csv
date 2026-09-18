@@ -1,0 +1,16 @@
+scenario,method,Pump Failure,Turbine Failure,Sensor Anomaly,Valve Stuck
+Nominal,additive,0.4592,0.503,0.0092,0.0286
+Nominal,wsm_v,0.4572,0.5004,0.013,0.0294
+Nominal,topsis_mm,0.4542,0.5028,0.0132,0.0298
+Nominal,topsis,0.4522,0.5024,0.0148,0.0306
+Nominal,vikor,0.454,0.5052,0.011,0.0298
+Vibration,additive,0.388,0.5986,0.0026,0.0108
+Vibration,wsm_v,0.386,0.5978,0.0038,0.0124
+Vibration,topsis_mm,0.383,0.6002,0.0042,0.0126
+Vibration,topsis,0.3822,0.5994,0.005,0.0134
+Vibration,vikor,0.3836,0.6018,0.003,0.0116
+High T+M,additive,0.5082,0.4754,0.0024,0.014
+High T+M,wsm_v,0.5072,0.4752,0.0034,0.0142
+High T+M,topsis_mm,0.5036,0.4784,0.0038,0.0142
+High T+M,topsis,0.5026,0.4782,0.0046,0.0146
+High T+M,vikor,0.5042,0.4786,0.003,0.0142

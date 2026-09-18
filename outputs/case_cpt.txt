@@ -1,0 +1,28 @@
+Pump Failure: parents ['T', 'M', 'V'], lambda=7.090e-03, c=0.1941
+    [T=nom,M=nom,V=nom]  m=1.000  P(fail)=0.00138
+    [T=nom,M=nom,V=abn]  m=1.864  P(fail)=0.00257
+    [T=nom,M=abn,V=nom]  m=5.591  P(fail)=0.00770
+    [T=nom,M=abn,V=abn]  m=10.422  P(fail)=0.01434
+    [T=abn,M=nom,V=nom]  m=5.591  P(fail)=0.00770
+    [T=abn,M=nom,V=abn]  m=10.422  P(fail)=0.01434
+    [T=abn,M=abn,V=nom]  m=31.259  P(fail)=0.04303
+    [T=abn,M=abn,V=abn]  m=58.267  P(fail)=0.08020
+Turbine Failure: parents ['T', 'M', 'V'], lambda=7.090e-03, c=0.2038
+    [T=nom,M=nom,V=nom]  m=1.000  P(fail)=0.00145
+    [T=nom,M=nom,V=abn]  m=2.792  P(fail)=0.00404
+    [T=nom,M=abn,V=nom]  m=4.904  P(fail)=0.00709
+    [T=nom,M=abn,V=abn]  m=13.692  P(fail)=0.01979
+    [T=abn,M=nom,V=nom]  m=4.904  P(fail)=0.00709
+    [T=abn,M=nom,V=abn]  m=13.692  P(fail)=0.01979
+    [T=abn,M=abn,V=nom]  m=24.049  P(fail)=0.03476
+    [T=abn,M=abn,V=abn]  m=67.145  P(fail)=0.09704
+Sensor Anomaly: parents ['P', 'T'], lambda=5.000e-04, c=0.5238
+    [P=nom,T=nom]  m=1.000  P(fail)=0.00026
+    [P=nom,T=abn]  m=5.091  P(fail)=0.00133
+    [P=abn,T=nom]  m=1.500  P(fail)=0.00039
+    [P=abn,T=abn]  m=7.636  P(fail)=0.00200
+Valve Stuck: parents ['T', 'M'], lambda=8.450e-04, c=0.6156
+    [T=nom,M=nom]  m=1.000  P(fail)=0.00052
+    [T=nom,M=abn]  m=2.103  P(fail)=0.00109
+    [T=abn,M=nom]  m=2.103  P(fail)=0.00109
+    [T=abn,M=abn]  m=4.423  P(fail)=0.00230

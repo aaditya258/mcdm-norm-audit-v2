@@ -1,0 +1,1126 @@
+{
+ "_comment": "Per-matrix provenance transcribed from Supplement S5 and Table 6 of the main paper. 'transcribed' flips to true once the CSV named in csv_file has been added and passes scripts/validate_corpus.py.",
+ "matrices": {
+  "5.1": {
+   "rao_table": "5.1",
+   "problem": "materials selection",
+   "source": "Manshadi et al. (2007), Materials & Design 28:8-15",
+   "weights_provenance": "Manshadi et al. (2007), as reused by Rao",
+   "data_type": "raw",
+   "converted_columns": [],
+   "note": "",
+   "n_alternatives": 7,
+   "n_criteria": 7,
+   "type_code": "R",
+   "criteria": [
+    "TI",
+    "YS",
+    "YM",
+    "D",
+    "TE",
+    "TC",
+    "SH"
+   ],
+   "orientation": [
+    1,
+    1,
+    1,
+    -1,
+    -1,
+    -1,
+    -1
+   ],
+   "stated_weights_renormalised": [
+    0.28,
+    0.14,
+    0.05,
+    0.24,
+    0.19,
+    0.05,
+    0.05
+   ],
+   "csv_file": "rao_table_5_1.csv",
+   "transcribed": false
+  },
+  "5.5": {
+   "rao_table": "5.5",
+   "problem": "materials selection",
+   "source": "Rao (2007) illustrative example",
+   "weights_provenance": "Rao AHP, Sec. 5.2.2.4",
+   "data_type": "mixed",
+   "converted_columns": [
+    "CR"
+   ],
+   "note": "",
+   "n_alternatives": 6,
+   "n_criteria": 4,
+   "type_code": "M",
+   "criteria": [
+    "H",
+    "MR",
+    "C",
+    "CR"
+   ],
+   "orientation": [
+    1,
+    1,
+    -1,
+    1
+   ],
+   "stated_weights_renormalised": [
+    0.22,
+    0.538,
+    0.121,
+    0.121
+   ],
+   "csv_file": "rao_table_5_5.csv",
+   "transcribed": false
+  },
+  "6.1": {
+   "rao_table": "6.1",
+   "problem": "product design selection",
+   "source": "Besharati et al. (2006)",
+   "weights_provenance": "Rao AHP, Sec. 6.2.2",
+   "data_type": "raw",
+   "converted_columns": [],
+   "note": "",
+   "n_alternatives": 10,
+   "n_criteria": 3,
+   "type_code": "R",
+   "criteria": [
+    "JT",
+    "CF",
+    "MC"
+   ],
+   "orientation": [
+    -1,
+    1,
+    -1
+   ],
+   "stated_weights_renormalised": [
+    0.105,
+    0.258,
+    0.637
+   ],
+   "csv_file": "rao_table_6_1.csv",
+   "transcribed": false
+  },
+  "7.2": {
+   "rao_table": "7.2",
+   "problem": "machinability evaluation",
+   "source": "Rao (2007), data from machinability tests (K10 tool)",
+   "weights_provenance": "Rao AHP, Sec. 7.2.1.5",
+   "data_type": "raw",
+   "converted_columns": [],
+   "note": "",
+   "n_alternatives": 6,
+   "n_criteria": 3,
+   "type_code": "R",
+   "criteria": [
+    "VC",
+    "CF",
+    "PI"
+   ],
+   "orientation": [
+    1,
+    -1,
+    -1
+   ],
+   "stated_weights_renormalised": [
+    0.714,
+    0.143,
+    0.143
+   ],
+   "csv_file": "rao_table_7_2.csv",
+   "transcribed": false
+  },
+  "7.5": {
+   "rao_table": "7.5",
+   "problem": "machinability evaluation",
+   "source": "Enache et al. (1995), CIRP Annals",
+   "weights_provenance": "Rao AHP, Sec. 7.2.2.4",
+   "data_type": "raw",
+   "converted_columns": [],
+   "note": "",
+   "n_alternatives": 6,
+   "n_criteria": 3,
+   "type_code": "R",
+   "criteria": [
+    "TW",
+    "SE",
+    "SR"
+   ],
+   "orientation": [
+    -1,
+    -1,
+    -1
+   ],
+   "stated_weights_renormalised": [
+    0.731,
+    0.188,
+    0.081
+   ],
+   "csv_file": "rao_table_7_5.csv",
+   "transcribed": false
+  },
+  "8.2": {
+   "rao_table": "8.2",
+   "problem": "cutting fluid selection",
+   "source": "Rao (2007) grinding example",
+   "weights_provenance": "Rao AHP, Sec. 8.2.1.5",
+   "data_type": "mixed",
+   "converted_columns": [
+    "R",
+    "TH",
+    "EP",
+    "S"
+   ],
+   "note": "",
+   "n_alternatives": 4,
+   "n_criteria": 8,
+   "type_code": "M",
+   "criteria": [
+    "WW",
+    "TF",
+    "GT",
+    "SR",
+    "R",
+    "TH",
+    "EP",
+    "S"
+   ],
+   "orientation": [
+    -1,
+    -1,
+    -1,
+    -1,
+    1,
+    -1,
+    -1,
+    1
+   ],
+   "stated_weights_renormalised": [
+    0.331,
+    0.072,
+    0.181,
+    0.072,
+    0.046,
+    0.126,
+    0.126,
+    0.047
+   ],
+   "csv_file": "rao_table_8_2.csv",
+   "transcribed": false
+  },
+  "8.5": {
+   "rao_table": "8.5",
+   "problem": "cutting fluid selection",
+   "source": "Rao (2007) turning example",
+   "weights_provenance": "Rao, Edwards-Newman point allocation, Sec. 8.2.2.2",
+   "data_type": "raw",
+   "converted_columns": [],
+   "note": "",
+   "n_alternatives": 5,
+   "n_criteria": 4,
+   "type_code": "R",
+   "criteria": [
+    "Fc",
+    "Ft",
+    "WL",
+    "Rrms"
+   ],
+   "orientation": [
+    -1,
+    -1,
+    -1,
+    -1
+   ],
+   "stated_weights_renormalised": [
+    0.3,
+    0.1,
+    0.4,
+    0.2
+   ],
+   "csv_file": "rao_table_8_5.csv",
+   "transcribed": false
+  },
+  "9.1": {
+   "rao_table": "9.1",
+   "problem": "non-traditional machining process selection",
+   "source": "Yurdakul & Cogun (2003), Proc. IMechE B",
+   "weights_provenance": "Rao AHP, Sec. 9.2.1.5",
+   "data_type": "raw",
+   "converted_columns": [],
+   "note": "WM and C are ordinal scales as published (1-3 and 1-9)",
+   "n_alternatives": 5,
+   "n_criteria": 7,
+   "type_code": "R",
+   "criteria": [
+    "T",
+    "SF",
+    "SD",
+    "TR",
+    "MR",
+    "WM",
+    "C"
+   ],
+   "orientation": [
+    -1,
+    -1,
+    -1,
+    -1,
+    1,
+    1,
+    -1
+   ],
+   "stated_weights_renormalised": [
+    0.322,
+    0.194,
+    0.039,
+    0.039,
+    0.194,
+    0.106,
+    0.106
+   ],
+   "csv_file": "rao_table_9_1.csv",
+   "transcribed": false
+  },
+  "9.3": {
+   "rao_table": "9.3",
+   "problem": "non-traditional machining process selection",
+   "source": "Yurdakul & Cogun (2003), Proc. IMechE B",
+   "weights_provenance": "Rao AHP, Sec. 9.2.2.5",
+   "data_type": "raw",
+   "converted_columns": [],
+   "note": "WM and C are ordinal scales as published",
+   "n_alternatives": 4,
+   "n_criteria": 6,
+   "type_code": "R",
+   "criteria": [
+    "SF",
+    "SD",
+    "TR",
+    "MR",
+    "WM",
+    "C"
+   ],
+   "orientation": [
+    -1,
+    -1,
+    -1,
+    1,
+    1,
+    -1
+   ],
+   "stated_weights_renormalised": [
+    0.155,
+    0.085,
+    0.148,
+    0.316,
+    0.045,
+    0.251
+   ],
+   "csv_file": "rao_table_9_3.csv",
+   "transcribed": false
+  },
+  "10.2": {
+   "rao_table": "10.2",
+   "problem": "flexible manufacturing system selection",
+   "source": "Karsak & Kuzgunkaya (2002), Int. J. Production Economics",
+   "weights_provenance": "Rao AHP, Sec. 10.2.1.5",
+   "data_type": "mixed",
+   "converted_columns": [
+    "IMR",
+    "IQ"
+   ],
+   "note": "Rao's printed weights sum to 1.046; renormalised here. RLC/RWP/RSC/CMC/FSU are mid-points of published ranges.",
+   "n_alternatives": 8,
+   "n_criteria": 7,
+   "type_code": "M",
+   "criteria": [
+    "RLC",
+    "RWP",
+    "RSC",
+    "IMR",
+    "IQ",
+    "CMC",
+    "FSU"
+   ],
+   "orientation": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    -1,
+    -1
+   ],
+   "stated_weights_renormalised": [
+    0.113,
+    0.113,
+    0.044,
+    0.113,
+    0.287,
+    0.287,
+    0.044
+   ],
+   "csv_file": "rao_table_10_2.csv",
+   "transcribed": false
+  },
+  "11.1": {
+   "rao_table": "11.1",
+   "problem": "machine group selection",
+   "source": "Wang et al. (2000), Int. J. Production Research",
+   "weights_provenance": "Rao AHP, Sec. 11.2.4",
+   "data_type": "raw",
+   "converted_columns": [],
+   "note": "",
+   "n_alternatives": 10,
+   "n_criteria": 4,
+   "type_code": "R",
+   "criteria": [
+    "PC",
+    "FS",
+    "MN",
+    "P"
+   ],
+   "orientation": [
+    -1,
+    -1,
+    -1,
+    1
+   ],
+   "stated_weights_renormalised": [
+    0.467,
+    0.16,
+    0.095,
+    0.278
+   ],
+   "csv_file": "rao_table_11_1.csv",
+   "transcribed": false
+  },
+  "13.2": {
+   "rao_table": "13.2",
+   "problem": "robot selection",
+   "source": "Rao (2007) illustrative example",
+   "weights_provenance": "Rao AHP, Sec. 13.2.1.4 (SAW weights 0.40, 0.08, 0.40, 0.05, 0.08 also given)",
+   "data_type": "mixed",
+   "converted_columns": [
+    "MI",
+    "PF"
+   ],
+   "note": "",
+   "n_alternatives": 3,
+   "n_criteria": 5,
+   "type_code": "M",
+   "criteria": [
+    "PC",
+    "LC",
+    "RE",
+    "MI",
+    "PF"
+   ],
+   "orientation": [
+    -1,
+    1,
+    -1,
+    1,
+    1
+   ],
+   "stated_weights_renormalised": [
+    0.392,
+    0.084,
+    0.392,
+    0.049,
+    0.084
+   ],
+   "csv_file": "rao_table_13_2.csv",
+   "transcribed": false
+  },
+  "13.4": {
+   "rao_table": "13.4",
+   "problem": "robot selection",
+   "source": "Bhangale et al. (2004), Robotics and Autonomous Systems",
+   "weights_provenance": "Rao AHP, Sec. 13.2.2.4",
+   "data_type": "raw",
+   "converted_columns": [],
+   "note": "",
+   "n_alternatives": 7,
+   "n_criteria": 5,
+   "type_code": "R",
+   "criteria": [
+    "LC",
+    "RE",
+    "MS",
+    "MC",
+    "MR"
+   ],
+   "orientation": [
+    1,
+    -1,
+    1,
+    1,
+    1
+   ],
+   "stated_weights_renormalised": [
+    0.036,
+    0.192,
+    0.326,
+    0.326,
+    0.12
+   ],
+   "csv_file": "rao_table_13_4.csv",
+   "transcribed": false
+  },
+  "14.1": {
+   "rao_table": "14.1",
+   "problem": "automated inspection system selection",
+   "source": "Pandey & Kengpol (1995), Computers & Industrial Engineering",
+   "weights_provenance": "Rao AHP, Sec. 14.2.4",
+   "data_type": "raw",
+   "converted_columns": [],
+   "note": "published as attributes-by-alternatives; transposed here. Scores are 0-100 ratings.",
+   "n_alternatives": 4,
+   "n_criteria": 11,
+   "type_code": "R",
+   "criteria": [
+    "A",
+    "V",
+    "R",
+    "S",
+    "M",
+    "L",
+    "I",
+    "O",
+    "T",
+    "E",
+    "F"
+   ],
+   "orientation": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    -1,
+    -1,
+    1,
+    -1,
+    1
+   ],
+   "stated_weights_renormalised": [
+    0.207,
+    0.086,
+    0.207,
+    0.052,
+    0.033,
+    0.052,
+    0.086,
+    0.033,
+    0.138,
+    0.022,
+    0.086
+   ],
+   "csv_file": "rao_table_14_1.csv",
+   "transcribed": false
+  },
+  "15.4": {
+   "rao_table": "15.4",
+   "problem": "material handling equipment selection",
+   "source": "Kulak (2005), Expert Systems with Applications",
+   "weights_provenance": "equal weights (Rao, Sec. 15.2.2)",
+   "data_type": "mixed",
+   "converted_columns": [
+    "F"
+   ],
+   "note": "",
+   "n_alternatives": 4,
+   "n_criteria": 6,
+   "type_code": "M",
+   "criteria": [
+    "FC",
+    "VC",
+    "SC",
+    "IW",
+    "W",
+    "F"
+   ],
+   "orientation": [
+    -1,
+    -1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "stated_weights_renormalised": [
+    0.167,
+    0.167,
+    0.167,
+    0.167,
+    0.167,
+    0.167
+   ],
+   "csv_file": "rao_table_15_4.csv",
+   "transcribed": false
+  },
+  "16.2": {
+   "rao_table": "16.2",
+   "problem": "rapid prototyping system selection",
+   "source": "Byun & Lee (2004), Int. J. Adv. Manufacturing Technology",
+   "weights_provenance": "Rao AHP, Sec. 16.2.4",
+   "data_type": "mixed",
+   "converted_columns": [
+    "C",
+    "B"
+   ],
+   "note": "",
+   "n_alternatives": 6,
+   "n_criteria": 6,
+   "type_code": "M",
+   "criteria": [
+    "A",
+    "R",
+    "S",
+    "E",
+    "C",
+    "B"
+   ],
+   "orientation": [
+    -1,
+    -1,
+    1,
+    1,
+    -1,
+    -1
+   ],
+   "stated_weights_renormalised": [
+    0.319,
+    0.319,
+    0.129,
+    0.129,
+    0.052,
+    0.052
+   ],
+   "csv_file": "rao_table_16_2.csv",
+   "transcribed": false
+  },
+  "18.1": {
+   "rao_table": "18.1",
+   "problem": "welding process selection",
+   "source": "Rao (2007) illustrative example",
+   "weights_provenance": "Rao AHP, Sec. 18.2.4",
+   "data_type": "converted",
+   "converted_columns": [
+    "WQ",
+    "OF",
+    "SR",
+    "CR",
+    "AC",
+    "IP"
+   ],
+   "note": "",
+   "n_alternatives": 3,
+   "n_criteria": 6,
+   "type_code": "C",
+   "criteria": [
+    "WQ",
+    "OF",
+    "SR",
+    "CR",
+    "AC",
+    "IP"
+   ],
+   "orientation": [
+    1,
+    -1,
+    -1,
+    -1,
+    1,
+    -1
+   ],
+   "stated_weights_renormalised": [
+    0.353,
+    0.253,
+    0.167,
+    0.11,
+    0.07,
+    0.047
+   ],
+   "csv_file": "rao_table_18_1.csv",
+   "transcribed": false
+  },
+  "20.1": {
+   "rao_table": "20.1",
+   "problem": "metal stamping layout evaluation",
+   "source": "Singh & Sekhon (1996), J. Materials Processing Technology",
+   "weights_provenance": "Rao AHP, Sec. 20.2.4",
+   "data_type": "raw",
+   "converted_columns": [],
+   "note": "Ja is an ordinal accuracy score as published",
+   "n_alternatives": 6,
+   "n_criteria": 5,
+   "type_code": "R",
+   "criteria": [
+    "Ur",
+    "Dc",
+    "Oc",
+    "Pr",
+    "Ja"
+   ],
+   "orientation": [
+    1,
+    -1,
+    -1,
+    1,
+    1
+   ],
+   "stated_weights_renormalised": [
+    0.282,
+    0.105,
+    0.05,
+    0.282,
+    0.282
+   ],
+   "csv_file": "rao_table_20_1.csv",
+   "transcribed": false
+  },
+  "21.2": {
+   "rao_table": "21.2",
+   "problem": "forging condition selection",
+   "source": "Forcellese et al. (1996), J. Materials Processing Technology",
+   "weights_provenance": "Rao AHP, Sec. 21.2.4",
+   "data_type": "mixed",
+   "converted_columns": [
+    "DC",
+    "HC"
+   ],
+   "note": "",
+   "n_alternatives": 3,
+   "n_criteria": 5,
+   "type_code": "M",
+   "criteria": [
+    "PQ",
+    "PR",
+    "DC",
+    "HC",
+    "FL"
+   ],
+   "orientation": [
+    -1,
+    1,
+    -1,
+    -1,
+    -1
+   ],
+   "stated_weights_renormalised": [
+    0.236,
+    0.459,
+    0.179,
+    0.037,
+    0.089
+   ],
+   "csv_file": "rao_table_21_2.csv",
+   "transcribed": false
+  },
+  "22.1": {
+   "rao_table": "22.1",
+   "problem": "environmentally conscious manufacturing program selection",
+   "source": "Sarkis (1999), Int. J. Production Research",
+   "weights_provenance": "Rao AHP, Sec. 22.2.4",
+   "data_type": "raw",
+   "converted_columns": [],
+   "note": "",
+   "n_alternatives": 15,
+   "n_criteria": 6,
+   "type_code": "R",
+   "criteria": [
+    "C",
+    "Q",
+    "R",
+    "PWR",
+    "PGR",
+    "RC"
+   ],
+   "orientation": [
+    -1,
+    -1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "stated_weights_renormalised": [
+    0.261,
+    0.066,
+    0.137,
+    0.288,
+    0.173,
+    0.075
+   ],
+   "csv_file": "rao_table_22_1.csv",
+   "transcribed": false
+  },
+  "23.2": {
+   "rao_table": "23.2",
+   "problem": "environmentally conscious design (LCA scenarios)",
+   "source": "Choi et al. (1997)",
+   "weights_provenance": "Rao AHP, Sec. 23.2.4",
+   "data_type": "raw",
+   "converted_columns": [],
+   "note": "noise column omitted by Rao because it is constant across scenarios",
+   "n_alternatives": 12,
+   "n_criteria": 3,
+   "type_code": "R",
+   "criteria": [
+    "SW",
+    "EC",
+    "WW"
+   ],
+   "orientation": [
+    -1,
+    -1,
+    -1
+   ],
+   "stated_weights_renormalised": [
+    0.54,
+    0.297,
+    0.164
+   ],
+   "csv_file": "rao_table_23_2.csv",
+   "transcribed": false
+  },
+  "24.2": {
+   "rao_table": "24.2",
+   "problem": "risk evaluation in green manufacturing",
+   "source": "Hua et al. (2005)",
+   "weights_provenance": "Rao AHP, Sec. 24.2.4",
+   "data_type": "converted",
+   "converted_columns": [],
+   "note": "all 12 criteria are risk grades converted from linguistic terms; Integration is constant and will be dropped by the audit",
+   "n_alternatives": 3,
+   "n_criteria": 11,
+   "type_code": "C",
+   "criteria": [
+    "R",
+    "D",
+    "M",
+    "A",
+    "K",
+    "P",
+    "V",
+    "C",
+    "E",
+    "G",
+    "T"
+   ],
+   "orientation": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ],
+   "stated_weights_renormalised": [
+    0.055,
+    0.253,
+    0.128,
+    0.185,
+    0.055,
+    0.128,
+    0.022,
+    0.033,
+    0.055,
+    0.055,
+    0.033
+   ],
+   "csv_file": "rao_table_24_2.csv",
+   "transcribed": false
+  },
+  "25.1": {
+   "rao_table": "25.1",
+   "problem": "end-of-life scenario selection",
+   "source": "Bufardi et al. (2003), Int. J. Production Research",
+   "weights_provenance": "equal weights (Rao, Sec. 25.2.2)",
+   "data_type": "raw",
+   "converted_columns": [],
+   "note": "EH is on a 1-5 scale where 5 = very low exposure, so treated as beneficial per Rao",
+   "n_alternatives": 4,
+   "n_criteria": 9,
+   "type_code": "R",
+   "criteria": [
+    "CE",
+    "SE",
+    "EC",
+    "LC",
+    "DC",
+    "PV",
+    "PC",
+    "NE",
+    "EH"
+   ],
+   "orientation": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    1,
+    -1,
+    1,
+    1
+   ],
+   "stated_weights_renormalised": [
+    0.111,
+    0.111,
+    0.111,
+    0.111,
+    0.111,
+    0.111,
+    0.111,
+    0.111,
+    0.111
+   ],
+   "csv_file": "rao_table_25_1.csv",
+   "transcribed": false
+  },
+  "26.1": {
+   "rao_table": "26.1",
+   "problem": "pipeline project route selection",
+   "source": "Dey (2006)",
+   "weights_provenance": "Dey (2006) AHP weights, printed in parentheses",
+   "data_type": "priorities",
+   "converted_columns": [],
+   "note": "entries are AHP local priorities (each criterion row sums to 1), not raw measurements; all beneficial. Use with caution or exclude.",
+   "n_alternatives": 4,
+   "n_criteria": 19,
+   "type_code": "P",
+   "criteria": [
+    "RouteLength",
+    "RouteChar",
+    "Augment",
+    "Expansion",
+    "Corrosion",
+    "Pilferage",
+    "ThirdParty",
+    "Approach",
+    "Constructability",
+    "EIA_PipeFail",
+    "EIA_StationFail",
+    "EIA_PipeOps",
+    "EIA_StationOps",
+    "EIA_Construction",
+    "Compensation",
+    "EmploymentRehab",
+    "EmploymentConstr",
+    "ConstrActivities",
+    "InfraBurden"
+   ],
+   "orientation": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "stated_weights_renormalised": [
+    0.142,
+    0.019,
+    0.041,
+    0.031,
+    0.066,
+    0.027,
+    0.016,
+    0.046,
+    0.069,
+    0.103,
+    0.083,
+    0.018,
+    0.02,
+    0.027,
+    0.091,
+    0.04,
+    0.055,
+    0.055,
+    0.051
+   ],
+   "csv_file": "rao_table_26_1.csv",
+   "transcribed": false
+  },
+  "27.1": {
+   "rao_table": "27.1",
+   "problem": "facility location selection",
+   "source": "Bhattacharya et al. (2003)",
+   "weights_provenance": "Rao AHP, Sec. 27.2.1.4",
+   "data_type": "raw",
+   "converted_columns": [],
+   "note": "",
+   "n_alternatives": 6,
+   "n_criteria": 5,
+   "type_code": "R",
+   "criteria": [
+    "CL",
+    "CE",
+    "CRM",
+    "CT",
+    "CLR"
+   ],
+   "orientation": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ],
+   "stated_weights_renormalised": [
+    0.344,
+    0.054,
+    0.344,
+    0.129,
+    0.129
+   ],
+   "csv_file": "rao_table_27_1.csv",
+   "transcribed": false
+  },
+  "27.4": {
+   "rao_table": "27.4",
+   "problem": "facility location selection",
+   "source": "Rao (2007) illustrative example",
+   "weights_provenance": "Rao AHP, Sec. 27.2.2.4",
+   "data_type": "mixed",
+   "converted_columns": [
+    "CM",
+    "CR",
+    "LT",
+    "AT",
+    "AL",
+    "E",
+    "BC"
+   ],
+   "note": "",
+   "n_alternatives": 3,
+   "n_criteria": 8,
+   "type_code": "M",
+   "criteria": [
+    "CM",
+    "CR",
+    "LT",
+    "AT",
+    "CLR",
+    "AL",
+    "E",
+    "BC"
+   ],
+   "orientation": [
+    1,
+    1,
+    1,
+    1,
+    -1,
+    1,
+    1,
+    1
+   ],
+   "stated_weights_renormalised": [
+    0.127,
+    0.127,
+    0.088,
+    0.052,
+    0.093,
+    0.071,
+    0.167,
+    0.276
+   ],
+   "csv_file": "rao_table_27_4.csv",
+   "transcribed": false
+  },
+  "28.1": {
+   "rao_table": "28.1",
+   "problem": "operational performance evaluation (financial ratios)",
+   "source": "Deng, Yeh & Willis (2000), Computers & Operations Research 27:963-973",
+   "weights_provenance": "Deng et al. (2000) entropy weights",
+   "data_type": "raw",
+   "converted_columns": [],
+   "note": "Debt ratio already reversed by Deng et al. so that all four are beneficial",
+   "n_alternatives": 7,
+   "n_criteria": 4,
+   "type_code": "R",
+   "criteria": [
+    "PR",
+    "PD",
+    "MP",
+    "DR"
+   ],
+   "orientation": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "stated_weights_renormalised": [
+    0.535,
+    0.129,
+    0.277,
+    0.059
+   ],
+   "csv_file": "rao_table_28_1.csv",
+   "transcribed": false
+  },
+  "29.1": {
+   "rao_table": "29.1",
+   "problem": "vendor selection",
+   "source": "Liu, Ding & Lall (2000), Supply Chain Management 5:143-150",
+   "weights_provenance": "Rao AHP, Sec. 29.2.4",
+   "data_type": "raw",
+   "converted_columns": [],
+   "note": "",
+   "n_alternatives": 18,
+   "n_criteria": 5,
+   "type_code": "R",
+   "criteria": [
+    "P",
+    "Q",
+    "DP",
+    "D",
+    "SV"
+   ],
+   "orientation": [
+    -1,
+    1,
+    1,
+    -1,
+    1
+   ],
+   "stated_weights_renormalised": [
+    0.136,
+    0.483,
+    0.259,
+    0.044,
+    0.078
+   ],
+   "csv_file": "rao_table_29_1.csv",
+   "transcribed": false
+  }
+ }
+}

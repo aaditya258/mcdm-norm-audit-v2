@@ -1,0 +1,2519 @@
+{
+ "_comment": "Expected audit output per matrix, transcribed from Supplement S5 (per-criterion kappa, effective weights, flagged pairs), S2.6 Table (both cost conventions) and Table 6 of the main paper (TOPSIS inversions). Used by scripts/validate_corpus.py to verify each transcribed CSV.",
+ "matrices": {
+  "5.1": {
+   "nu": 2.76,
+   "delta_w": 0.183,
+   "n_pairs": 21,
+   "per_criterion": [
+    {
+     "criterion": "TI",
+     "orientation": 1,
+     "w_stated": 0.28,
+     "kappa": 0.773,
+     "w_eff": 0.443,
+     "shift_pp": 16.3
+    },
+    {
+     "criterion": "YS",
+     "orientation": 1,
+     "w_stated": 0.14,
+     "kappa": 0.542,
+     "w_eff": 0.155,
+     "shift_pp": 1.5
+    },
+    {
+     "criterion": "YM",
+     "orientation": 1,
+     "w_stated": 0.05,
+     "kappa": 0.365,
+     "w_eff": 0.037,
+     "shift_pp": -1.3
+    },
+    {
+     "criterion": "D",
+     "orientation": -1,
+     "w_stated": 0.24,
+     "kappa": 0.335,
+     "w_eff": 0.165,
+     "shift_pp": -7.5
+    },
+    {
+     "criterion": "TE",
+     "orientation": -1,
+     "w_stated": 0.19,
+     "kappa": 0.28,
+     "w_eff": 0.109,
+     "shift_pp": -8.1
+    },
+    {
+     "criterion": "TC",
+     "orientation": -1,
+     "w_stated": 0.05,
+     "kappa": 0.541,
+     "w_eff": 0.055,
+     "shift_pp": 0.5
+    },
+    {
+     "criterion": "SH",
+     "orientation": -1,
+     "w_stated": 0.05,
+     "kappa": 0.352,
+     "w_eff": 0.036,
+     "shift_pp": -1.4
+    }
+   ],
+   "flagged_pairs": [
+    {
+     "pair": [
+      "Al 2024-T6",
+      "70Cu-30Zn"
+     ],
+     "inverted_by_topsis": false
+    },
+    {
+     "pair": [
+      "Al 5052-O",
+      "70Cu-30Zn"
+     ],
+     "inverted_by_topsis": false
+    }
+   ],
+   "topsis_inversions_not_flagged": [],
+   "topsis_inversions_total": 0,
+   "topsis_inversions_flagged": 0,
+   "convention_comparison": {
+    "nu_raw": 2.76,
+    "delta_w_raw": 0.183,
+    "nu_max_minus_x": 2.12,
+    "delta_w_max_minus_x": 0.061
+   }
+  },
+  "5.5": {
+   "nu": 2.13,
+   "delta_w": 0.067,
+   "n_pairs": 15,
+   "per_criterion": [
+    {
+     "criterion": "H",
+     "orientation": 1,
+     "w_stated": 0.22,
+     "kappa": 0.384,
+     "w_eff": 0.246,
+     "shift_pp": 2.6
+    },
+    {
+     "criterion": "MR",
+     "orientation": 1,
+     "w_stated": 0.538,
+     "kappa": 0.33,
+     "w_eff": 0.516,
+     "shift_pp": -2.1
+    },
+    {
+     "criterion": "C",
+     "orientation": -1,
+     "w_stated": 0.121,
+     "kappa": 0.457,
+     "w_eff": 0.162,
+     "shift_pp": 4.0
+    },
+    {
+     "criterion": "CR",
+     "orientation": 1,
+     "w_stated": 0.121,
+     "kappa": 0.215,
+     "w_eff": 0.076,
+     "shift_pp": -4.5
+    }
+   ],
+   "flagged_pairs": [
+    {
+     "pair": [
+      "Material 2",
+      "Material 5"
+     ],
+     "inverted_by_topsis": false
+    }
+   ],
+   "topsis_inversions_not_flagged": [],
+   "topsis_inversions_total": 0,
+   "topsis_inversions_flagged": 0,
+   "convention_comparison": {
+    "nu_raw": 2.13,
+    "delta_w_raw": 0.067,
+    "nu_max_minus_x": 3.11,
+    "delta_w_max_minus_x": 0.108
+   }
+  },
+  "6.1": {
+   "nu": 3.65,
+   "delta_w": 0.166,
+   "n_pairs": 45,
+   "per_criterion": [
+    {
+     "criterion": "JT",
+     "orientation": -1,
+     "w_stated": 0.105,
+     "kappa": 0.104,
+     "w_eff": 0.047,
+     "shift_pp": -5.8
+    },
+    {
+     "criterion": "CF",
+     "orientation": 1,
+     "w_stated": 0.258,
+     "kappa": 0.379,
+     "w_eff": 0.425,
+     "shift_pp": 16.6
+    },
+    {
+     "criterion": "MC",
+     "orientation": -1,
+     "w_stated": 0.637,
+     "kappa": 0.191,
+     "w_eff": 0.528,
+     "shift_pp": -10.9
+    }
+   ],
+   "flagged_pairs": [
+    {
+     "pair": [
+      "Design 2",
+      "Design 3"
+     ],
+     "inverted_by_topsis": false
+    },
+    {
+     "pair": [
+      "Design 2",
+      "Design 6"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Design 2",
+      "Design 7"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Design 2",
+      "Design 8"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Design 2",
+      "Design 9"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Design 3",
+      "Design 7"
+     ],
+     "inverted_by_topsis": false
+    },
+    {
+     "pair": [
+      "Design 6",
+      "Design 8"
+     ],
+     "inverted_by_topsis": false
+    },
+    {
+     "pair": [
+      "Design 7",
+      "Design 8"
+     ],
+     "inverted_by_topsis": true
+    }
+   ],
+   "topsis_inversions_not_flagged": [],
+   "topsis_inversions_total": 5,
+   "topsis_inversions_flagged": 5,
+   "convention_comparison": {
+    "nu_raw": 3.65,
+    "delta_w_raw": 0.166,
+    "nu_max_minus_x": 1.49,
+    "delta_w_max_minus_x": 0.065
+   }
+  },
+  "7.2": {
+   "nu": 1.19,
+   "delta_w": 0.016,
+   "n_pairs": 15,
+   "per_criterion": [
+    {
+     "criterion": "VC",
+     "orientation": 1,
+     "w_stated": 0.714,
+     "kappa": 0.606,
+     "w_eff": 0.708,
+     "shift_pp": -0.6
+    },
+    {
+     "criterion": "CF",
+     "orientation": -1,
+     "w_stated": 0.143,
+     "kappa": 0.68,
+     "w_eff": 0.159,
+     "shift_pp": 1.6
+    },
+    {
+     "criterion": "PI",
+     "orientation": -1,
+     "w_stated": 0.143,
+     "kappa": 0.571,
+     "w_eff": 0.133,
+     "shift_pp": -1.0
+    }
+   ],
+   "flagged_pairs": [],
+   "topsis_inversions_not_flagged": [],
+   "topsis_inversions_total": 0,
+   "topsis_inversions_flagged": 0,
+   "convention_comparison": {
+    "nu_raw": 1.19,
+    "delta_w_raw": 0.016,
+    "nu_max_minus_x": 1.24,
+    "delta_w_max_minus_x": 0.016
+   }
+  },
+  "7.5": {
+   "nu": 8.91,
+   "delta_w": 0.071,
+   "n_pairs": 15,
+   "per_criterion": [
+    {
+     "criterion": "TW",
+     "orientation": -1,
+     "w_stated": 0.731,
+     "kappa": 0.587,
+     "w_eff": 0.785,
+     "shift_pp": 5.5
+    },
+    {
+     "criterion": "SE",
+     "orientation": -1,
+     "w_stated": 0.188,
+     "kappa": 0.594,
+     "w_eff": 0.205,
+     "shift_pp": 1.6
+    },
+    {
+     "criterion": "SR",
+     "orientation": -1,
+     "w_stated": 0.081,
+     "kappa": 0.067,
+     "w_eff": 0.01,
+     "shift_pp": -7.1
+    }
+   ],
+   "flagged_pairs": [
+    {
+     "pair": [
+      "TiAl6V4-P20(TiN)",
+      "TiAl6V4-K20*"
+     ],
+     "inverted_by_topsis": true
+    }
+   ],
+   "topsis_inversions_not_flagged": [],
+   "topsis_inversions_total": 1,
+   "topsis_inversions_flagged": 1,
+   "convention_comparison": {
+    "nu_raw": 8.91,
+    "delta_w_raw": 0.071,
+    "nu_max_minus_x": 1.3,
+    "delta_w_max_minus_x": 0.015
+   }
+  },
+  "8.2": {
+   "nu": 11.93,
+   "delta_w": 0.188,
+   "n_pairs": 6,
+   "per_criterion": [
+    {
+     "criterion": "WW",
+     "orientation": -1,
+     "w_stated": 0.331,
+     "kappa": 0.156,
+     "w_eff": 0.351,
+     "shift_pp": 2.1
+    },
+    {
+     "criterion": "TF",
+     "orientation": -1,
+     "w_stated": 0.072,
+     "kappa": 0.084,
+     "w_eff": 0.041,
+     "shift_pp": -3.1
+    },
+    {
+     "criterion": "GT",
+     "orientation": -1,
+     "w_stated": 0.181,
+     "kappa": 0.024,
+     "w_eff": 0.029,
+     "shift_pp": -15.2
+    },
+    {
+     "criterion": "SR",
+     "orientation": -1,
+     "w_stated": 0.072,
+     "kappa": 0.215,
+     "w_eff": 0.105,
+     "shift_pp": 3.3
+    },
+    {
+     "criterion": "R",
+     "orientation": 1,
+     "w_stated": 0.046,
+     "kappa": 0.281,
+     "w_eff": 0.088,
+     "shift_pp": 4.2
+    },
+    {
+     "criterion": "TH",
+     "orientation": -1,
+     "w_stated": 0.126,
+     "kappa": 0.14,
+     "w_eff": 0.12,
+     "shift_pp": -0.6
+    },
+    {
+     "criterion": "EP",
+     "orientation": -1,
+     "w_stated": 0.126,
+     "kappa": 0.223,
+     "w_eff": 0.191,
+     "shift_pp": 6.5
+    },
+    {
+     "criterion": "S",
+     "orientation": 1,
+     "w_stated": 0.047,
+     "kappa": 0.232,
+     "w_eff": 0.075,
+     "shift_pp": 2.7
+    }
+   ],
+   "flagged_pairs": [
+    {
+     "pair": [
+      "Cutting fluid 1",
+      "Cutting fluid 3"
+     ],
+     "inverted_by_topsis": false
+    }
+   ],
+   "topsis_inversions_not_flagged": [],
+   "topsis_inversions_total": 0,
+   "topsis_inversions_flagged": 0,
+   "convention_comparison": {
+    "nu_raw": 11.93,
+    "delta_w_raw": 0.188,
+    "nu_max_minus_x": 3.98,
+    "delta_w_max_minus_x": 0.071
+   }
+  },
+  "8.5": {
+   "nu": 2.78,
+   "delta_w": 0.158,
+   "n_pairs": 10,
+   "per_criterion": [
+    {
+     "criterion": "Fc",
+     "orientation": -1,
+     "w_stated": 0.3,
+     "kappa": 0.143,
+     "w_eff": 0.15,
+     "shift_pp": -15.0
+    },
+    {
+     "criterion": "Ft",
+     "orientation": -1,
+     "w_stated": 0.1,
+     "kappa": 0.278,
+     "w_eff": 0.097,
+     "shift_pp": -0.3
+    },
+    {
+     "criterion": "WL",
+     "orientation": -1,
+     "w_stated": 0.4,
+     "kappa": 0.398,
+     "w_eff": 0.558,
+     "shift_pp": 15.8
+    },
+    {
+     "criterion": "Rrms",
+     "orientation": -1,
+     "w_stated": 0.2,
+     "kappa": 0.278,
+     "w_eff": 0.194,
+     "shift_pp": -0.6
+    }
+   ],
+   "flagged_pairs": [
+    {
+     "pair": [
+      "Dry",
+      "Water soluble"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Dry",
+      "Chlorinated oil"
+     ],
+     "inverted_by_topsis": true
+    }
+   ],
+   "topsis_inversions_not_flagged": [],
+   "topsis_inversions_total": 2,
+   "topsis_inversions_flagged": 2,
+   "convention_comparison": {
+    "nu_raw": 2.78,
+    "delta_w_raw": 0.158,
+    "nu_max_minus_x": 1.1,
+    "delta_w_max_minus_x": 0.019
+   }
+  },
+  "9.1": {
+   "nu": 3.0,
+   "delta_w": 0.116,
+   "n_pairs": 10,
+   "per_criterion": [
+    {
+     "criterion": "T",
+     "orientation": -1,
+     "w_stated": 0.322,
+     "kappa": 0.56,
+     "w_eff": 0.274,
+     "shift_pp": -4.9
+    },
+    {
+     "criterion": "SF",
+     "orientation": -1,
+     "w_stated": 0.194,
+     "kappa": 0.654,
+     "w_eff": 0.192,
+     "shift_pp": -0.2
+    },
+    {
+     "criterion": "SD",
+     "orientation": -1,
+     "w_stated": 0.039,
+     "kappa": 0.678,
+     "w_eff": 0.04,
+     "shift_pp": 0.1
+    },
+    {
+     "criterion": "TR",
+     "orientation": -1,
+     "w_stated": 0.039,
+     "kappa": 0.968,
+     "w_eff": 0.057,
+     "shift_pp": 1.8
+    },
+    {
+     "criterion": "MR",
+     "orientation": 1,
+     "w_stated": 0.194,
+     "kappa": 0.988,
+     "w_eff": 0.29,
+     "shift_pp": 9.7
+    },
+    {
+     "criterion": "WM",
+     "orientation": 1,
+     "w_stated": 0.106,
+     "kappa": 0.329,
+     "w_eff": 0.053,
+     "shift_pp": -5.3
+    },
+    {
+     "criterion": "C",
+     "orientation": -1,
+     "w_stated": 0.106,
+     "kappa": 0.583,
+     "w_eff": 0.094,
+     "shift_pp": -1.2
+    }
+   ],
+   "flagged_pairs": [],
+   "topsis_inversions_not_flagged": [
+    [
+     "AJM",
+     "CHM"
+    ]
+   ],
+   "topsis_inversions_total": 1,
+   "topsis_inversions_flagged": 0,
+   "convention_comparison": {
+    "nu_raw": 3.0,
+    "delta_w_raw": 0.116,
+    "nu_max_minus_x": 3.0,
+    "delta_w_max_minus_x": 0.099
+   }
+  },
+  "9.3": {
+   "nu": 4.15,
+   "delta_w": 0.083,
+   "n_pairs": 6,
+   "per_criterion": [
+    {
+     "criterion": "SF",
+     "orientation": -1,
+     "w_stated": 0.155,
+     "kappa": 0.662,
+     "w_eff": 0.14,
+     "shift_pp": -1.5
+    },
+    {
+     "criterion": "SD",
+     "orientation": -1,
+     "w_stated": 0.085,
+     "kappa": 0.552,
+     "w_eff": 0.064,
+     "shift_pp": -2.1
+    },
+    {
+     "criterion": "TR",
+     "orientation": -1,
+     "w_stated": 0.148,
+     "kappa": 0.906,
+     "w_eff": 0.183,
+     "shift_pp": 3.5
+    },
+    {
+     "criterion": "MR",
+     "orientation": 1,
+     "w_stated": 0.316,
+     "kappa": 0.846,
+     "w_eff": 0.365,
+     "shift_pp": 4.8
+    },
+    {
+     "criterion": "WM",
+     "orientation": 1,
+     "w_stated": 0.045,
+     "kappa": 0.218,
+     "w_eff": 0.013,
+     "shift_pp": -3.1
+    },
+    {
+     "criterion": "C",
+     "orientation": -1,
+     "w_stated": 0.251,
+     "kappa": 0.688,
+     "w_eff": 0.235,
+     "shift_pp": -1.6
+    }
+   ],
+   "flagged_pairs": [],
+   "topsis_inversions_not_flagged": [
+    [
+     "EBM",
+     "LBM"
+    ]
+   ],
+   "topsis_inversions_total": 1,
+   "topsis_inversions_flagged": 0,
+   "convention_comparison": {
+    "nu_raw": 4.15,
+    "delta_w_raw": 0.083,
+    "nu_max_minus_x": 3.88,
+    "delta_w_max_minus_x": 0.056
+   }
+  },
+  "10.2": {
+   "nu": 3.08,
+   "delta_w": 0.187,
+   "n_pairs": 28,
+   "per_criterion": [
+    {
+     "criterion": "RLC",
+     "orientation": 1,
+     "w_stated": 0.113,
+     "kappa": 0.277,
+     "w_eff": 0.146,
+     "shift_pp": 3.3
+    },
+    {
+     "criterion": "RWP",
+     "orientation": 1,
+     "w_stated": 0.113,
+     "kappa": 0.321,
+     "w_eff": 0.17,
+     "shift_pp": 5.7
+    },
+    {
+     "criterion": "RSC",
+     "orientation": 1,
+     "w_stated": 0.044,
+     "kappa": 0.402,
+     "w_eff": 0.083,
+     "shift_pp": 3.9
+    },
+    {
+     "criterion": "IMR",
+     "orientation": 1,
+     "w_stated": 0.113,
+     "kappa": 0.29,
+     "w_eff": 0.153,
+     "shift_pp": 4.1
+    },
+    {
+     "criterion": "IQ",
+     "orientation": 1,
+     "w_stated": 0.287,
+     "kappa": 0.13,
+     "w_eff": 0.175,
+     "shift_pp": -11.1
+    },
+    {
+     "criterion": "CMC",
+     "orientation": -1,
+     "w_stated": 0.287,
+     "kappa": 0.157,
+     "w_eff": 0.211,
+     "shift_pp": -7.5
+    },
+    {
+     "criterion": "FSU",
+     "orientation": -1,
+     "w_stated": 0.044,
+     "kappa": 0.295,
+     "w_eff": 0.061,
+     "shift_pp": 1.7
+    }
+   ],
+   "flagged_pairs": [
+    {
+     "pair": [
+      "FMS 1",
+      "FMS 5"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "FMS 3",
+      "FMS 6"
+     ],
+     "inverted_by_topsis": false
+    }
+   ],
+   "topsis_inversions_not_flagged": [],
+   "topsis_inversions_total": 1,
+   "topsis_inversions_flagged": 1,
+   "convention_comparison": {
+    "nu_raw": 3.08,
+    "delta_w_raw": 0.187,
+    "nu_max_minus_x": 4.31,
+    "delta_w_max_minus_x": 0.219
+   }
+  },
+  "11.1": {
+   "nu": 2.43,
+   "delta_w": 0.152,
+   "n_pairs": 45,
+   "per_criterion": [
+    {
+     "criterion": "PC",
+     "orientation": -1,
+     "w_stated": 0.467,
+     "kappa": 0.063,
+     "w_eff": 0.318,
+     "shift_pp": -14.9
+    },
+    {
+     "criterion": "FS",
+     "orientation": -1,
+     "w_stated": 0.16,
+     "kappa": 0.154,
+     "w_eff": 0.265,
+     "shift_pp": 10.5
+    },
+    {
+     "criterion": "MN",
+     "orientation": -1,
+     "w_stated": 0.095,
+     "kappa": 0.089,
+     "w_eff": 0.092,
+     "shift_pp": -0.3
+    },
+    {
+     "criterion": "P",
+     "orientation": 1,
+     "w_stated": 0.278,
+     "kappa": 0.108,
+     "w_eff": 0.324,
+     "shift_pp": 4.6
+    }
+   ],
+   "flagged_pairs": [
+    {
+     "pair": [
+      "Alternative 1",
+      "Alternative 7"
+     ],
+     "inverted_by_topsis": false
+    },
+    {
+     "pair": [
+      "Alternative 3",
+      "Alternative 6"
+     ],
+     "inverted_by_topsis": false
+    },
+    {
+     "pair": [
+      "Alternative 5",
+      "Alternative 7"
+     ],
+     "inverted_by_topsis": false
+    }
+   ],
+   "topsis_inversions_not_flagged": [],
+   "topsis_inversions_total": 0,
+   "topsis_inversions_flagged": 0,
+   "convention_comparison": {
+    "nu_raw": 2.43,
+    "delta_w_raw": 0.152,
+    "nu_max_minus_x": 4.98,
+    "delta_w_max_minus_x": 0.204
+   }
+  },
+  "13.2": {
+   "nu": 6.5,
+   "delta_w": 0.305,
+   "n_pairs": 3,
+   "per_criterion": [
+    {
+     "criterion": "PC",
+     "orientation": -1,
+     "w_stated": 0.392,
+     "kappa": 0.032,
+     "w_eff": 0.137,
+     "shift_pp": -25.5
+    },
+    {
+     "criterion": "LC",
+     "orientation": 1,
+     "w_stated": 0.084,
+     "kappa": 0.06,
+     "w_eff": 0.055,
+     "shift_pp": -2.9
+    },
+    {
+     "criterion": "RE",
+     "orientation": -1,
+     "w_stated": 0.392,
+     "kappa": 0.147,
+     "w_eff": 0.635,
+     "shift_pp": 24.3
+    },
+    {
+     "criterion": "MI",
+     "orientation": 1,
+     "w_stated": 0.049,
+     "kappa": 0.206,
+     "w_eff": 0.11,
+     "shift_pp": 6.2
+    },
+    {
+     "criterion": "PF",
+     "orientation": 1,
+     "w_stated": 0.084,
+     "kappa": 0.067,
+     "w_eff": 0.062,
+     "shift_pp": -2.2
+    }
+   ],
+   "flagged_pairs": [
+    {
+     "pair": [
+      "Robot 1",
+      "Robot 3"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Robot 2",
+      "Robot 3"
+     ],
+     "inverted_by_topsis": true
+    }
+   ],
+   "topsis_inversions_not_flagged": [],
+   "topsis_inversions_total": 2,
+   "topsis_inversions_flagged": 2,
+   "convention_comparison": {
+    "nu_raw": 6.5,
+    "delta_w_raw": 0.305,
+    "nu_max_minus_x": 14.99,
+    "delta_w_max_minus_x": 0.187
+   }
+  },
+  "13.4": {
+   "nu": 2.22,
+   "delta_w": 0.078,
+   "n_pairs": 21,
+   "per_criterion": [
+    {
+     "criterion": "LC",
+     "orientation": 1,
+     "w_stated": 0.036,
+     "kappa": 0.93,
+     "w_eff": 0.058,
+     "shift_pp": 2.2
+    },
+    {
+     "criterion": "RE",
+     "orientation": -1,
+     "w_stated": 0.192,
+     "kappa": 0.629,
+     "w_eff": 0.209,
+     "shift_pp": 1.7
+    },
+    {
+     "criterion": "MS",
+     "orientation": 1,
+     "w_stated": 0.326,
+     "kappa": 0.495,
+     "w_eff": 0.28,
+     "shift_pp": -4.6
+    },
+    {
+     "criterion": "MC",
+     "orientation": 1,
+     "w_stated": 0.326,
+     "kappa": 0.645,
+     "w_eff": 0.365,
+     "shift_pp": 3.9
+    },
+    {
+     "criterion": "MR",
+     "orientation": 1,
+     "w_stated": 0.12,
+     "kappa": 0.42,
+     "w_eff": 0.087,
+     "shift_pp": -3.3
+    }
+   ],
+   "flagged_pairs": [
+    {
+     "pair": [
+      "Robot 2",
+      "Robot 3"
+     ],
+     "inverted_by_topsis": true
+    }
+   ],
+   "topsis_inversions_not_flagged": [
+    [
+     "Robot 4",
+     "Robot 7"
+    ]
+   ],
+   "topsis_inversions_total": 2,
+   "topsis_inversions_flagged": 1,
+   "convention_comparison": {
+    "nu_raw": 2.22,
+    "delta_w_raw": 0.078,
+    "nu_max_minus_x": 2.22,
+    "delta_w_max_minus_x": 0.085
+   }
+  },
+  "14.1": {
+   "nu": 10.78,
+   "delta_w": 0.171,
+   "n_pairs": 6,
+   "per_criterion": [
+    {
+     "criterion": "A",
+     "orientation": 1,
+     "w_stated": 0.207,
+     "kappa": 0.195,
+     "w_eff": 0.205,
+     "shift_pp": -0.2
+    },
+    {
+     "criterion": "V",
+     "orientation": 1,
+     "w_stated": 0.086,
+     "kappa": 0.219,
+     "w_eff": 0.096,
+     "shift_pp": 1.0
+    },
+    {
+     "criterion": "R",
+     "orientation": 1,
+     "w_stated": 0.207,
+     "kappa": 0.211,
+     "w_eff": 0.222,
+     "shift_pp": 1.5
+    },
+    {
+     "criterion": "S",
+     "orientation": 1,
+     "w_stated": 0.052,
+     "kappa": 0.142,
+     "w_eff": 0.037,
+     "shift_pp": -1.4
+    },
+    {
+     "criterion": "M",
+     "orientation": 1,
+     "w_stated": 0.033,
+     "kappa": 0.147,
+     "w_eff": 0.024,
+     "shift_pp": -0.8
+    },
+    {
+     "criterion": "L",
+     "orientation": 1,
+     "w_stated": 0.052,
+     "kappa": 0.098,
+     "w_eff": 0.026,
+     "shift_pp": -2.6
+    },
+    {
+     "criterion": "I",
+     "orientation": -1,
+     "w_stated": 0.086,
+     "kappa": 0.337,
+     "w_eff": 0.147,
+     "shift_pp": 6.1
+    },
+    {
+     "criterion": "O",
+     "orientation": -1,
+     "w_stated": 0.033,
+     "kappa": 0.717,
+     "w_eff": 0.118,
+     "shift_pp": 8.6
+    },
+    {
+     "criterion": "T",
+     "orientation": 1,
+     "w_stated": 0.138,
+     "kappa": 0.067,
+     "w_eff": 0.046,
+     "shift_pp": -9.1
+    },
+    {
+     "criterion": "E",
+     "orientation": -1,
+     "w_stated": 0.022,
+     "kappa": 0.137,
+     "w_eff": 0.015,
+     "shift_pp": -0.7
+    },
+    {
+     "criterion": "F",
+     "orientation": 1,
+     "w_stated": 0.086,
+     "kappa": 0.147,
+     "w_eff": 0.064,
+     "shift_pp": -2.2
+    }
+   ],
+   "flagged_pairs": [],
+   "topsis_inversions_not_flagged": [
+    [
+     "CMM2 (Japan)",
+     "Laser scan (Japan)"
+    ]
+   ],
+   "topsis_inversions_total": 1,
+   "topsis_inversions_flagged": 0,
+   "convention_comparison": {
+    "nu_raw": 10.78,
+    "delta_w_raw": 0.171,
+    "nu_max_minus_x": 13.45,
+    "delta_w_max_minus_x": 0.289
+   }
+  },
+  "15.4": {
+   "nu": 15.67,
+   "delta_w": 0.315,
+   "n_pairs": 6,
+   "per_criterion": [
+    {
+     "criterion": "FC",
+     "orientation": -1,
+     "w_stated": 0.167,
+     "kappa": 0.089,
+     "w_eff": 0.086,
+     "shift_pp": -8.1
+    },
+    {
+     "criterion": "VC",
+     "orientation": -1,
+     "w_stated": 0.167,
+     "kappa": 0.022,
+     "w_eff": 0.021,
+     "shift_pp": -14.5
+    },
+    {
+     "criterion": "SC",
+     "orientation": 1,
+     "w_stated": 0.167,
+     "kappa": 0.13,
+     "w_eff": 0.125,
+     "shift_pp": -4.1
+    },
+    {
+     "criterion": "IW",
+     "orientation": 1,
+     "w_stated": 0.167,
+     "kappa": 0.323,
+     "w_eff": 0.312,
+     "shift_pp": 14.6
+    },
+    {
+     "criterion": "W",
+     "orientation": 1,
+     "w_stated": 0.167,
+     "kappa": 0.348,
+     "w_eff": 0.336,
+     "shift_pp": 17.0
+    },
+    {
+     "criterion": "F",
+     "orientation": 1,
+     "w_stated": 0.167,
+     "kappa": 0.123,
+     "w_eff": 0.118,
+     "shift_pp": -4.8
+    }
+   ],
+   "flagged_pairs": [
+    {
+     "pair": [
+      "Conveyor 1",
+      "Conveyor 4"
+     ],
+     "inverted_by_topsis": true
+    }
+   ],
+   "topsis_inversions_not_flagged": [
+    [
+     "Conveyor 2",
+     "Conveyor 4"
+    ]
+   ],
+   "topsis_inversions_total": 2,
+   "topsis_inversions_flagged": 1,
+   "convention_comparison": {
+    "nu_raw": 15.67,
+    "delta_w_raw": 0.315,
+    "nu_max_minus_x": 7.44,
+    "delta_w_max_minus_x": 0.318
+   }
+  },
+  "16.2": {
+   "nu": 1.93,
+   "delta_w": 0.1,
+   "n_pairs": 15,
+   "per_criterion": [
+    {
+     "criterion": "A",
+     "orientation": -1,
+     "w_stated": 0.319,
+     "kappa": 0.748,
+     "w_eff": 0.419,
+     "shift_pp": 10.0
+    },
+    {
+     "criterion": "R",
+     "orientation": -1,
+     "w_stated": 0.319,
+     "kappa": 0.487,
+     "w_eff": 0.272,
+     "shift_pp": -4.6
+    },
+    {
+     "criterion": "S",
+     "orientation": 1,
+     "w_stated": 0.129,
+     "kappa": 0.547,
+     "w_eff": 0.124,
+     "shift_pp": -0.5
+    },
+    {
+     "criterion": "E",
+     "orientation": 1,
+     "w_stated": 0.129,
+     "kappa": 0.492,
+     "w_eff": 0.112,
+     "shift_pp": -1.7
+    },
+    {
+     "criterion": "C",
+     "orientation": -1,
+     "w_stated": 0.052,
+     "kappa": 0.388,
+     "w_eff": 0.036,
+     "shift_pp": -1.7
+    },
+    {
+     "criterion": "B",
+     "orientation": -1,
+     "w_stated": 0.052,
+     "kappa": 0.406,
+     "w_eff": 0.037,
+     "shift_pp": -1.5
+    }
+   ],
+   "flagged_pairs": [
+    {
+     "pair": [
+      "FDM8000",
+      "LOM1015"
+     ],
+     "inverted_by_topsis": true
+    }
+   ],
+   "topsis_inversions_not_flagged": [
+    [
+     "SLA3500",
+     "SLS2500"
+    ]
+   ],
+   "topsis_inversions_total": 2,
+   "topsis_inversions_flagged": 1,
+   "convention_comparison": {
+    "nu_raw": 1.93,
+    "delta_w_raw": 0.1,
+    "nu_max_minus_x": 1.98,
+    "delta_w_max_minus_x": 0.093
+   }
+  },
+  "18.1": {
+   "nu": 1.41,
+   "delta_w": 0.028,
+   "n_pairs": 3,
+   "per_criterion": [
+    {
+     "criterion": "WQ",
+     "orientation": 1,
+     "w_stated": 0.353,
+     "kappa": 0.228,
+     "w_eff": 0.373,
+     "shift_pp": 2.0
+    },
+    {
+     "criterion": "OF",
+     "orientation": -1,
+     "w_stated": 0.253,
+     "kappa": 0.219,
+     "w_eff": 0.256,
+     "shift_pp": 0.4
+    },
+    {
+     "criterion": "SR",
+     "orientation": -1,
+     "w_stated": 0.167,
+     "kappa": 0.219,
+     "w_eff": 0.169,
+     "shift_pp": 0.3
+    },
+    {
+     "criterion": "CR",
+     "orientation": -1,
+     "w_stated": 0.11,
+     "kappa": 0.162,
+     "w_eff": 0.083,
+     "shift_pp": -2.8
+    },
+    {
+     "criterion": "AC",
+     "orientation": 1,
+     "w_stated": 0.07,
+     "kappa": 0.219,
+     "w_eff": 0.071,
+     "shift_pp": 0.1
+    },
+    {
+     "criterion": "IP",
+     "orientation": -1,
+     "w_stated": 0.047,
+     "kappa": 0.219,
+     "w_eff": 0.048,
+     "shift_pp": 0.1
+    }
+   ],
+   "flagged_pairs": [],
+   "topsis_inversions_not_flagged": [],
+   "topsis_inversions_total": 0,
+   "topsis_inversions_flagged": 0,
+   "convention_comparison": {
+    "nu_raw": 1.41,
+    "delta_w_raw": 0.028,
+    "nu_max_minus_x": 4.33,
+    "delta_w_max_minus_x": 0.273
+   }
+  },
+  "20.1": {
+   "nu": 2.86,
+   "delta_w": 0.117,
+   "n_pairs": 15,
+   "per_criterion": [
+    {
+     "criterion": "Ur",
+     "orientation": 1,
+     "w_stated": 0.282,
+     "kappa": 0.176,
+     "w_eff": 0.223,
+     "shift_pp": -5.9
+    },
+    {
+     "criterion": "Dc",
+     "orientation": -1,
+     "w_stated": 0.105,
+     "kappa": 0.103,
+     "w_eff": 0.049,
+     "shift_pp": -5.7
+    },
+    {
+     "criterion": "Oc",
+     "orientation": -1,
+     "w_stated": 0.05,
+     "kappa": 0.215,
+     "w_eff": 0.048,
+     "shift_pp": -0.2
+    },
+    {
+     "criterion": "Pr",
+     "orientation": 1,
+     "w_stated": 0.282,
+     "kappa": 0.243,
+     "w_eff": 0.308,
+     "shift_pp": 2.6
+    },
+    {
+     "criterion": "Ja",
+     "orientation": 1,
+     "w_stated": 0.282,
+     "kappa": 0.295,
+     "w_eff": 0.373,
+     "shift_pp": 9.1
+    }
+   ],
+   "flagged_pairs": [
+    {
+     "pair": [
+      "Layout b",
+      "Layout c"
+     ],
+     "inverted_by_topsis": true
+    }
+   ],
+   "topsis_inversions_not_flagged": [
+    [
+     "Layout e",
+     "Layout f"
+    ]
+   ],
+   "topsis_inversions_total": 2,
+   "topsis_inversions_flagged": 1,
+   "convention_comparison": {
+    "nu_raw": 2.86,
+    "delta_w_raw": 0.117,
+    "nu_max_minus_x": 4.89,
+    "delta_w_max_minus_x": 0.236
+   }
+  },
+  "21.2": {
+   "nu": 2.18,
+   "delta_w": 0.068,
+   "n_pairs": 3,
+   "per_criterion": [
+    {
+     "criterion": "PQ",
+     "orientation": -1,
+     "w_stated": 0.236,
+     "kappa": 0.532,
+     "w_eff": 0.234,
+     "shift_pp": -0.2
+    },
+    {
+     "criterion": "PR",
+     "orientation": 1,
+     "w_stated": 0.459,
+     "kappa": 0.613,
+     "w_eff": 0.525,
+     "shift_pp": 6.6
+    },
+    {
+     "criterion": "DC",
+     "orientation": -1,
+     "w_stated": 0.179,
+     "kappa": 0.464,
+     "w_eff": 0.155,
+     "shift_pp": -2.4
+    },
+    {
+     "criterion": "HC",
+     "orientation": -1,
+     "w_stated": 0.037,
+     "kappa": 0.573,
+     "w_eff": 0.04,
+     "shift_pp": 0.3
+    },
+    {
+     "criterion": "FL",
+     "orientation": -1,
+     "w_stated": 0.089,
+     "kappa": 0.281,
+     "w_eff": 0.047,
+     "shift_pp": -4.2
+    }
+   ],
+   "flagged_pairs": [],
+   "topsis_inversions_not_flagged": [],
+   "topsis_inversions_total": 0,
+   "topsis_inversions_flagged": 0,
+   "convention_comparison": {
+    "nu_raw": 2.18,
+    "delta_w_raw": 0.068,
+    "nu_max_minus_x": 1.62,
+    "delta_w_max_minus_x": 0.069
+   }
+  },
+  "22.1": {
+   "nu": 1.43,
+   "delta_w": 0.075,
+   "n_pairs": 105,
+   "per_criterion": [
+    {
+     "criterion": "C",
+     "orientation": -1,
+     "w_stated": 0.261,
+     "kappa": 0.302,
+     "w_eff": 0.225,
+     "shift_pp": -3.6
+    },
+    {
+     "criterion": "Q",
+     "orientation": -1,
+     "w_stated": 0.066,
+     "kappa": 0.412,
+     "w_eff": 0.078,
+     "shift_pp": 1.2
+    },
+    {
+     "criterion": "R",
+     "orientation": 1,
+     "w_stated": 0.137,
+     "kappa": 0.397,
+     "w_eff": 0.155,
+     "shift_pp": 1.8
+    },
+    {
+     "criterion": "PWR",
+     "orientation": 1,
+     "w_stated": 0.288,
+     "kappa": 0.302,
+     "w_eff": 0.248,
+     "shift_pp": -4.0
+    },
+    {
+     "criterion": "PGR",
+     "orientation": 1,
+     "w_stated": 0.173,
+     "kappa": 0.432,
+     "w_eff": 0.213,
+     "shift_pp": 4.1
+    },
+    {
+     "criterion": "RC",
+     "orientation": 1,
+     "w_stated": 0.075,
+     "kappa": 0.373,
+     "w_eff": 0.08,
+     "shift_pp": 0.5
+    }
+   ],
+   "flagged_pairs": [
+    {
+     "pair": [
+      "Program 1",
+      "Program 7"
+     ],
+     "inverted_by_topsis": false
+    },
+    {
+     "pair": [
+      "Program 2",
+      "Program 11"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Program 2",
+      "Program 13"
+     ],
+     "inverted_by_topsis": false
+    },
+    {
+     "pair": [
+      "Program 6",
+      "Program 15"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Program 7",
+      "Program 10"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Program 11",
+      "Program 13"
+     ],
+     "inverted_by_topsis": false
+    }
+   ],
+   "topsis_inversions_not_flagged": [
+    [
+     "Program 14",
+     "Program 15"
+    ]
+   ],
+   "topsis_inversions_total": 4,
+   "topsis_inversions_flagged": 3,
+   "convention_comparison": {
+    "nu_raw": 1.43,
+    "delta_w_raw": 0.075,
+    "nu_max_minus_x": 1.64,
+    "delta_w_max_minus_x": 0.077
+   }
+  },
+  "23.2": {
+   "nu": 1.51,
+   "delta_w": 0.076,
+   "n_pairs": 66,
+   "per_criterion": [
+    {
+     "criterion": "SW",
+     "orientation": -1,
+     "w_stated": 0.54,
+     "kappa": 0.413,
+     "w_eff": 0.606,
+     "shift_pp": 6.6
+    },
+    {
+     "criterion": "EC",
+     "orientation": -1,
+     "w_stated": 0.297,
+     "kappa": 0.274,
+     "w_eff": 0.221,
+     "shift_pp": -7.6
+    },
+    {
+     "criterion": "WW",
+     "orientation": -1,
+     "w_stated": 0.164,
+     "kappa": 0.388,
+     "w_eff": 0.173,
+     "shift_pp": 0.9
+    }
+   ],
+   "flagged_pairs": [
+    {
+     "pair": [
+      "Scenario 5",
+      "Scenario 7"
+     ],
+     "inverted_by_topsis": true
+    }
+   ],
+   "topsis_inversions_not_flagged": [],
+   "topsis_inversions_total": 1,
+   "topsis_inversions_flagged": 1,
+   "convention_comparison": {
+    "nu_raw": 1.51,
+    "delta_w_raw": 0.076,
+    "nu_max_minus_x": 1.02,
+    "delta_w_max_minus_x": 0.003
+   }
+  },
+  "24.2": {
+   "nu": 6.47,
+   "delta_w": 0.152,
+   "n_pairs": 3,
+   "per_criterion": [
+    {
+     "criterion": "R",
+     "orientation": -1,
+     "w_stated": 0.055,
+     "kappa": 0.347,
+     "w_eff": 0.049,
+     "shift_pp": -0.5
+    },
+    {
+     "criterion": "D",
+     "orientation": -1,
+     "w_stated": 0.253,
+     "kappa": 0.471,
+     "w_eff": 0.311,
+     "shift_pp": 5.8
+    },
+    {
+     "criterion": "M",
+     "orientation": -1,
+     "w_stated": 0.128,
+     "kappa": 0.162,
+     "w_eff": 0.054,
+     "shift_pp": -7.4
+    },
+    {
+     "criterion": "A",
+     "orientation": -1,
+     "w_stated": 0.185,
+     "kappa": 0.347,
+     "w_eff": 0.168,
+     "shift_pp": -1.7
+    },
+    {
+     "criterion": "K",
+     "orientation": -1,
+     "w_stated": 0.055,
+     "kappa": 0.098,
+     "w_eff": 0.014,
+     "shift_pp": -4.1
+    },
+    {
+     "criterion": "P",
+     "orientation": -1,
+     "w_stated": 0.128,
+     "kappa": 0.375,
+     "w_eff": 0.125,
+     "shift_pp": -0.3
+    },
+    {
+     "criterion": "V",
+     "orientation": -1,
+     "w_stated": 0.022,
+     "kappa": 0.162,
+     "w_eff": 0.009,
+     "shift_pp": -1.2
+    },
+    {
+     "criterion": "C",
+     "orientation": -1,
+     "w_stated": 0.033,
+     "kappa": 0.462,
+     "w_eff": 0.04,
+     "shift_pp": 0.7
+    },
+    {
+     "criterion": "E",
+     "orientation": -1,
+     "w_stated": 0.055,
+     "kappa": 0.632,
+     "w_eff": 0.09,
+     "shift_pp": 3.5
+    },
+    {
+     "criterion": "G",
+     "orientation": -1,
+     "w_stated": 0.055,
+     "kappa": 0.603,
+     "w_eff": 0.086,
+     "shift_pp": 3.1
+    },
+    {
+     "criterion": "T",
+     "orientation": -1,
+     "w_stated": 0.033,
+     "kappa": 0.629,
+     "w_eff": 0.054,
+     "shift_pp": 2.1
+    }
+   ],
+   "flagged_pairs": [],
+   "topsis_inversions_not_flagged": [],
+   "topsis_inversions_total": 0,
+   "topsis_inversions_flagged": 0,
+   "convention_comparison": {
+    "nu_raw": 6.47,
+    "delta_w_raw": 0.152,
+    "nu_max_minus_x": 1.38,
+    "delta_w_max_minus_x": 0.033
+   }
+  },
+  "25.1": {
+   "nu": 10.47,
+   "delta_w": 0.207,
+   "n_pairs": 6,
+   "per_criterion": [
+    {
+     "criterion": "CE",
+     "orientation": -1,
+     "w_stated": 0.111,
+     "kappa": 0.198,
+     "w_eff": 0.102,
+     "shift_pp": -0.9
+    },
+    {
+     "criterion": "SE",
+     "orientation": -1,
+     "w_stated": 0.111,
+     "kappa": 0.361,
+     "w_eff": 0.187,
+     "shift_pp": 7.6
+    },
+    {
+     "criterion": "EC",
+     "orientation": -1,
+     "w_stated": 0.111,
+     "kappa": 0.189,
+     "w_eff": 0.098,
+     "shift_pp": -1.4
+    },
+    {
+     "criterion": "LC",
+     "orientation": -1,
+     "w_stated": 0.111,
+     "kappa": 0.153,
+     "w_eff": 0.079,
+     "shift_pp": -3.2
+    },
+    {
+     "criterion": "DC",
+     "orientation": -1,
+     "w_stated": 0.111,
+     "kappa": 0.034,
+     "w_eff": 0.018,
+     "shift_pp": -9.3
+    },
+    {
+     "criterion": "PV",
+     "orientation": 1,
+     "w_stated": 0.111,
+     "kappa": 0.359,
+     "w_eff": 0.186,
+     "shift_pp": 7.5
+    },
+    {
+     "criterion": "PC",
+     "orientation": -1,
+     "w_stated": 0.111,
+     "kappa": 0.134,
+     "w_eff": 0.069,
+     "shift_pp": -4.2
+    },
+    {
+     "criterion": "NE",
+     "orientation": 1,
+     "w_stated": 0.111,
+     "kappa": 0.324,
+     "w_eff": 0.168,
+     "shift_pp": 5.7
+    },
+    {
+     "criterion": "EH",
+     "orientation": 1,
+     "w_stated": 0.111,
+     "kappa": 0.18,
+     "w_eff": 0.093,
+     "shift_pp": -1.8
+    }
+   ],
+   "flagged_pairs": [],
+   "topsis_inversions_not_flagged": [],
+   "topsis_inversions_total": 0,
+   "topsis_inversions_flagged": 0,
+   "convention_comparison": {
+    "nu_raw": 10.47,
+    "delta_w_raw": 0.207,
+    "nu_max_minus_x": 5.27,
+    "delta_w_max_minus_x": 0.183
+   }
+  },
+  "26.1": {
+   "nu": 4.03,
+   "delta_w": 0.128,
+   "n_pairs": 6,
+   "per_criterion": [
+    {
+     "criterion": "RouteLength",
+     "orientation": 1,
+     "w_stated": 0.142,
+     "kappa": 0.504,
+     "w_eff": 0.2,
+     "shift_pp": 5.8
+    },
+    {
+     "criterion": "RouteChar",
+     "orientation": 1,
+     "w_stated": 0.019,
+     "kappa": 0.197,
+     "w_eff": 0.011,
+     "shift_pp": -0.9
+    },
+    {
+     "criterion": "Augment",
+     "orientation": 1,
+     "w_stated": 0.041,
+     "kappa": 0.454,
+     "w_eff": 0.052,
+     "shift_pp": 1.1
+    },
+    {
+     "criterion": "Expansion",
+     "orientation": 1,
+     "w_stated": 0.031,
+     "kappa": 0.534,
+     "w_eff": 0.047,
+     "shift_pp": 1.6
+    },
+    {
+     "criterion": "Corrosion",
+     "orientation": 1,
+     "w_stated": 0.066,
+     "kappa": 0.329,
+     "w_eff": 0.061,
+     "shift_pp": -0.5
+    },
+    {
+     "criterion": "Pilferage",
+     "orientation": 1,
+     "w_stated": 0.027,
+     "kappa": 0.179,
+     "w_eff": 0.014,
+     "shift_pp": -1.4
+    },
+    {
+     "criterion": "ThirdParty",
+     "orientation": 1,
+     "w_stated": 0.016,
+     "kappa": 0.139,
+     "w_eff": 0.006,
+     "shift_pp": -1.0
+    },
+    {
+     "criterion": "Approach",
+     "orientation": 1,
+     "w_stated": 0.046,
+     "kappa": 0.382,
+     "w_eff": 0.049,
+     "shift_pp": 0.3
+    },
+    {
+     "criterion": "Constructability",
+     "orientation": 1,
+     "w_stated": 0.069,
+     "kappa": 0.329,
+     "w_eff": 0.063,
+     "shift_pp": -0.5
+    },
+    {
+     "criterion": "EIA_PipeFail",
+     "orientation": 1,
+     "w_stated": 0.103,
+     "kappa": 0.329,
+     "w_eff": 0.095,
+     "shift_pp": -0.8
+    },
+    {
+     "criterion": "EIA_StationFail",
+     "orientation": 1,
+     "w_stated": 0.083,
+     "kappa": 0.139,
+     "w_eff": 0.032,
+     "shift_pp": -5.1
+    },
+    {
+     "criterion": "EIA_PipeOps",
+     "orientation": 1,
+     "w_stated": 0.018,
+     "kappa": 0.274,
+     "w_eff": 0.014,
+     "shift_pp": -0.4
+    },
+    {
+     "criterion": "EIA_StationOps",
+     "orientation": 1,
+     "w_stated": 0.02,
+     "kappa": 0.378,
+     "w_eff": 0.021,
+     "shift_pp": 0.1
+    },
+    {
+     "criterion": "EIA_Construction",
+     "orientation": 1,
+     "w_stated": 0.027,
+     "kappa": 0.197,
+     "w_eff": 0.015,
+     "shift_pp": -1.2
+    },
+    {
+     "criterion": "Compensation",
+     "orientation": 1,
+     "w_stated": 0.091,
+     "kappa": 0.328,
+     "w_eff": 0.084,
+     "shift_pp": -0.7
+    },
+    {
+     "criterion": "EmploymentRehab",
+     "orientation": 1,
+     "w_stated": 0.04,
+     "kappa": 0.384,
+     "w_eff": 0.042,
+     "shift_pp": 0.3
+    },
+    {
+     "criterion": "EmploymentConstr",
+     "orientation": 1,
+     "w_stated": 0.055,
+     "kappa": 0.385,
+     "w_eff": 0.059,
+     "shift_pp": 0.4
+    },
+    {
+     "criterion": "ConstrActivities",
+     "orientation": 1,
+     "w_stated": 0.055,
+     "kappa": 0.562,
+     "w_eff": 0.086,
+     "shift_pp": 3.1
+    },
+    {
+     "criterion": "InfraBurden",
+     "orientation": 1,
+     "w_stated": 0.051,
+     "kappa": 0.344,
+     "w_eff": 0.049,
+     "shift_pp": -0.2
+    }
+   ],
+   "flagged_pairs": [],
+   "topsis_inversions_not_flagged": [
+    [
+     "Route 1",
+     "Route 2"
+    ],
+    [
+     "Route 2",
+     "Route 3"
+    ]
+   ],
+   "topsis_inversions_total": 2,
+   "topsis_inversions_flagged": 0,
+   "convention_comparison": {
+    "nu_raw": 4.03,
+    "delta_w_raw": 0.128,
+    "nu_max_minus_x": 4.03,
+    "delta_w_max_minus_x": 0.128
+   }
+  },
+  "27.1": {
+   "nu": 2.87,
+   "delta_w": 0.219,
+   "n_pairs": 15,
+   "per_criterion": [
+    {
+     "criterion": "CL",
+     "orientation": -1,
+     "w_stated": 0.344,
+     "kappa": 0.397,
+     "w_eff": 0.534,
+     "shift_pp": 19.0
+    },
+    {
+     "criterion": "CE",
+     "orientation": -1,
+     "w_stated": 0.054,
+     "kappa": 0.154,
+     "w_eff": 0.033,
+     "shift_pp": -2.2
+    },
+    {
+     "criterion": "CRM",
+     "orientation": -1,
+     "w_stated": 0.344,
+     "kappa": 0.138,
+     "w_eff": 0.186,
+     "shift_pp": -15.8
+    },
+    {
+     "criterion": "CT",
+     "orientation": -1,
+     "w_stated": 0.129,
+     "kappa": 0.176,
+     "w_eff": 0.089,
+     "shift_pp": -4.0
+    },
+    {
+     "criterion": "CLR",
+     "orientation": -1,
+     "w_stated": 0.129,
+     "kappa": 0.313,
+     "w_eff": 0.158,
+     "shift_pp": 2.9
+    }
+   ],
+   "flagged_pairs": [
+    {
+     "pair": [
+      "P1",
+      "P2"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "P1",
+      "P5"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "P3",
+      "P4"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "P3",
+      "P6"
+     ],
+     "inverted_by_topsis": false
+    }
+   ],
+   "topsis_inversions_not_flagged": [],
+   "topsis_inversions_total": 3,
+   "topsis_inversions_flagged": 3,
+   "convention_comparison": {
+    "nu_raw": 2.87,
+    "delta_w_raw": 0.219,
+    "nu_max_minus_x": 1.29,
+    "delta_w_max_minus_x": 0.039
+   }
+  },
+  "27.4": {
+   "nu": 6.5,
+   "delta_w": 0.242,
+   "n_pairs": 3,
+   "per_criterion": [
+    {
+     "criterion": "CM",
+     "orientation": 1,
+     "w_stated": 0.127,
+     "kappa": 0.219,
+     "w_eff": 0.285,
+     "shift_pp": 15.9
+    },
+    {
+     "criterion": "CR",
+     "orientation": 1,
+     "w_stated": 0.127,
+     "kappa": 0.067,
+     "w_eff": 0.087,
+     "shift_pp": -4.0
+    },
+    {
+     "criterion": "LT",
+     "orientation": 1,
+     "w_stated": 0.088,
+     "kappa": 0.067,
+     "w_eff": 0.06,
+     "shift_pp": -2.8
+    },
+    {
+     "criterion": "AT",
+     "orientation": 1,
+     "w_stated": 0.052,
+     "kappa": 0.139,
+     "w_eff": 0.074,
+     "shift_pp": 2.2
+    },
+    {
+     "criterion": "CLR",
+     "orientation": -1,
+     "w_stated": 0.093,
+     "kappa": 0.034,
+     "w_eff": 0.032,
+     "shift_pp": -6.1
+    },
+    {
+     "criterion": "AL",
+     "orientation": 1,
+     "w_stated": 0.071,
+     "kappa": 0.07,
+     "w_eff": 0.051,
+     "shift_pp": -2.0
+    },
+    {
+     "criterion": "E",
+     "orientation": 1,
+     "w_stated": 0.167,
+     "kappa": 0.134,
+     "w_eff": 0.229,
+     "shift_pp": 6.2
+    },
+    {
+     "criterion": "BC",
+     "orientation": 1,
+     "w_stated": 0.276,
+     "kappa": 0.064,
+     "w_eff": 0.182,
+     "shift_pp": -9.4
+    }
+   ],
+   "flagged_pairs": [
+    {
+     "pair": [
+      "P1",
+      "P2"
+     ],
+     "inverted_by_topsis": true
+    }
+   ],
+   "topsis_inversions_not_flagged": [],
+   "topsis_inversions_total": 1,
+   "topsis_inversions_flagged": 1,
+   "convention_comparison": {
+    "nu_raw": 6.5,
+    "delta_w_raw": 0.242,
+    "nu_max_minus_x": 12.96,
+    "delta_w_max_minus_x": 0.393
+   }
+  },
+  "28.1": {
+   "nu": 2.76,
+   "delta_w": 0.108,
+   "n_pairs": 21,
+   "per_criterion": [
+    {
+     "criterion": "PR",
+     "orientation": 1,
+     "w_stated": 0.535,
+     "kappa": 0.388,
+     "w_eff": 0.643,
+     "shift_pp": 10.8
+    },
+    {
+     "criterion": "PD",
+     "orientation": 1,
+     "w_stated": 0.129,
+     "kappa": 0.191,
+     "w_eff": 0.076,
+     "shift_pp": -5.3
+    },
+    {
+     "criterion": "MP",
+     "orientation": 1,
+     "w_stated": 0.277,
+     "kappa": 0.297,
+     "w_eff": 0.255,
+     "shift_pp": -2.2
+    },
+    {
+     "criterion": "DR",
+     "orientation": 1,
+     "w_stated": 0.059,
+     "kappa": 0.141,
+     "w_eff": 0.026,
+     "shift_pp": -3.3
+    }
+   ],
+   "flagged_pairs": [
+    {
+     "pair": [
+      "A1",
+      "A7"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "A2",
+      "A5"
+     ],
+     "inverted_by_topsis": true
+    }
+   ],
+   "topsis_inversions_not_flagged": [],
+   "topsis_inversions_total": 2,
+   "topsis_inversions_flagged": 2,
+   "convention_comparison": {
+    "nu_raw": 2.76,
+    "delta_w_raw": 0.108,
+    "nu_max_minus_x": 2.76,
+    "delta_w_max_minus_x": 0.108
+   }
+  },
+  "29.1": {
+   "nu": 30.08,
+   "delta_w": 0.569,
+   "n_pairs": 153,
+   "per_criterion": [
+    {
+     "criterion": "P",
+     "orientation": -1,
+     "w_stated": 0.136,
+     "kappa": 0.048,
+     "w_eff": 0.069,
+     "shift_pp": -6.7
+    },
+    {
+     "criterion": "Q",
+     "orientation": 1,
+     "w_stated": 0.483,
+     "kappa": 0.019,
+     "w_eff": 0.099,
+     "shift_pp": -38.4
+    },
+    {
+     "criterion": "DP",
+     "orientation": 1,
+     "w_stated": 0.259,
+     "kappa": 0.052,
+     "w_eff": 0.141,
+     "shift_pp": -11.8
+    },
+    {
+     "criterion": "D",
+     "orientation": -1,
+     "w_stated": 0.044,
+     "kappa": 0.453,
+     "w_eff": 0.21,
+     "shift_pp": 16.6
+    },
+    {
+     "criterion": "SV",
+     "orientation": 1,
+     "w_stated": 0.078,
+     "kappa": 0.58,
+     "w_eff": 0.48,
+     "shift_pp": 40.2
+    }
+   ],
+   "flagged_pairs": [
+    {
+     "pair": [
+      "Vendor 1",
+      "Vendor 6"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 1",
+      "Vendor 9"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 1",
+      "Vendor 16"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 2",
+      "Vendor 3"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 2",
+      "Vendor 4"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 2",
+      "Vendor 6"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 2",
+      "Vendor 7"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 2",
+      "Vendor 16"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 2",
+      "Vendor 18"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 3",
+      "Vendor 6"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 4",
+      "Vendor 6"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 4",
+      "Vendor 7"
+     ],
+     "inverted_by_topsis": false
+    },
+    {
+     "pair": [
+      "Vendor 4",
+      "Vendor 14"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 4",
+      "Vendor 18"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 5",
+      "Vendor 8"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 5",
+      "Vendor 11"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 5",
+      "Vendor 12"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 5",
+      "Vendor 16"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 6",
+      "Vendor 7"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 6",
+      "Vendor 8"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 6",
+      "Vendor 9"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 6",
+      "Vendor 11"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 6",
+      "Vendor 12"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 6",
+      "Vendor 13"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 6",
+      "Vendor 16"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 6",
+      "Vendor 18"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 7",
+      "Vendor 14"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 7",
+      "Vendor 18"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 8",
+      "Vendor 10"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 9",
+      "Vendor 16"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 10",
+      "Vendor 11"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 10",
+      "Vendor 12"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 10",
+      "Vendor 15"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 10",
+      "Vendor 17"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 11",
+      "Vendor 12"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 11",
+      "Vendor 13"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 12",
+      "Vendor 13"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 13",
+      "Vendor 16"
+     ],
+     "inverted_by_topsis": true
+    },
+    {
+     "pair": [
+      "Vendor 15",
+      "Vendor 17"
+     ],
+     "inverted_by_topsis": true
+    }
+   ],
+   "topsis_inversions_not_flagged": [
+    [
+     "Vendor 1",
+     "Vendor 2"
+    ],
+    [
+     "Vendor 3",
+     "Vendor 14"
+    ],
+    [
+     "Vendor 5",
+     "Vendor 6"
+    ],
+    [
+     "Vendor 14",
+     "Vendor 18"
+    ]
+   ],
+   "topsis_inversions_total": 42,
+   "topsis_inversions_flagged": 38,
+   "convention_comparison": {
+    "nu_raw": 30.08,
+    "delta_w_raw": 0.569,
+    "nu_max_minus_x": 36.68,
+    "delta_w_max_minus_x": 0.615
+   }
+  }
+ }
+}

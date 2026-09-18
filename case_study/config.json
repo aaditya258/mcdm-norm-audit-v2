@@ -1,0 +1,174 @@
+{
+  "_comment": "Configuration for the ECCS/HPCI reactor case (Section 5, Supplement S3). Every value tagged 'source: manuscript' is stated in the main paper or supplement. Values tagged 'source: RECONSTRUCTED' were not in the manuscript (marked [[fill from repository]] in S3) and were calibrated by scripts/calibrate_multipliers.py so that the exact BN posteriors match the Monte Carlo means reported in S3.4. The authors must replace them with the elicited parent sets and multipliers before release.",
+  "alternatives": [
+    "Pump Failure",
+    "Turbine Failure",
+    "Sensor Anomaly",
+    "Valve Stuck"
+  ],
+  "criteria": [
+    "Likelihood",
+    "Severity",
+    "Detectability cost"
+  ],
+  "orientation": [
+    1,
+    1,
+    1
+  ],
+  "expert_scores": {
+    "source": "manuscript (Table 3)",
+    "severity": [
+      0.95,
+      0.9,
+      0.2,
+      0.7
+    ],
+    "detectability_D": [
+      0.5,
+      0.35,
+      0.9,
+      0.7
+    ]
+  },
+  "stressors": {
+    "source": "manuscript (S3.1)",
+    "names": [
+      "P",
+      "T",
+      "M",
+      "V"
+    ],
+    "labels": [
+      "power level",
+      "temperature stress",
+      "maintenance quality",
+      "vibration level"
+    ],
+    "prior_abnormal": [
+      0.1,
+      0.2,
+      0.3,
+      0.15
+    ]
+  },
+  "base_rates": {
+    "source": "manuscript (S3.2): INL HPCI system study 1998-2022 (pump/turbine), INL 2021 component update (valve, sensor)",
+    "per_demand": [
+      0.00709,
+      0.00709,
+      0.0005,
+      0.000845
+    ]
+  },
+  "parents": {
+    "source": "RECONSTRUCTED (S3.1 says each failure mode has one to three stressor parents)",
+    "Pump Failure": [
+      "T",
+      "M",
+      "V"
+    ],
+    "Turbine Failure": [
+      "T",
+      "M",
+      "V"
+    ],
+    "Sensor Anomaly": [
+      "P",
+      "T"
+    ],
+    "Valve Stuck": [
+      "T",
+      "M"
+    ]
+  },
+  "multipliers": {
+    "source": "RECONSTRUCTED: m_{i,pa} = product over abnormal parents of the per-parent factor below (m = 1 when all parents nominal); factors calibrated to the S3.4 scenario posteriors",
+    "per_parent_factor": {
+      "Pump Failure": {
+        "T": 5.591,
+        "M": 5.591,
+        "V": 1.864
+      },
+      "Turbine Failure": {
+        "T": 4.904,
+        "M": 4.904,
+        "V": 2.792
+      },
+      "Sensor Anomaly": {
+        "P": 1.5,
+        "T": 5.091
+      },
+      "Valve Stuck": {
+        "T": 2.103,
+        "M": 2.103
+      }
+    }
+  },
+  "epistemic": {
+    "source": "manuscript (S3.3)",
+    "beta_concentration": 10,
+    "beta_concentration_sweep": [
+      5,
+      10,
+      20,
+      50
+    ]
+  },
+  "weights_ahp": {
+    "source": "manuscript (S3.3): triangular pairwise comparisons on Saaty's scale",
+    "a12": [
+      2,
+      3,
+      4
+    ],
+    "a13": [
+      4,
+      5,
+      6
+    ],
+    "a23": [
+      2,
+      3,
+      4
+    ],
+    "random_index_n3": 0.58
+  },
+  "scenarios": {
+    "source": "manuscript (S3.4)",
+    "Nominal": {},
+    "Vibration": {
+      "V": 1
+    },
+    "High T+M": {
+      "T": 1,
+      "M": 1
+    }
+  },
+  "reported_posterior_means": {
+    "source": "manuscript (S3.4), used only by calibrate_multipliers.py and as a check",
+    "Nominal": [
+      0.0071,
+      0.0072,
+      0.0005,
+      0.0009
+    ],
+    "Vibration": [
+      0.0117,
+      0.0156,
+      0.0005,
+      0.0008
+    ],
+    "High T+M": [
+      0.0486,
+      0.0441,
+      0.0014,
+      0.0023
+    ]
+  },
+  "monte_carlo": {
+    "source": "manuscript",
+    "iterations": 5000,
+    "seed": 20260918
+  }
+}

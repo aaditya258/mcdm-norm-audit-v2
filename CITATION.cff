@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "Normalization as Implicit Reweighting: code and data"
+version: 1.0.0
+date-released: 2026-09-18
+authors:
+  - name: "[[Authors]]"
+preferred-citation:
+  type: article
+  title: "Normalization as Implicit Reweighting: A Pre-Ranking Audit for Multi-Criteria Decision Support"
+  journal: "International Journal of Information Technology & Decision Making"
+  year: 2026
+  authors:
+    - name: "[[Authors]]"
+references:
+  - type: book
+    title: "Decision Making in the Manufacturing Environment: Using Graph Theory and Fuzzy Multiple Attribute Decision Making Methods"
+    authors:
+      - family-names: Rao
+        given-names: R. V.
+    publisher:
+      name: Springer
+    year: 2007
